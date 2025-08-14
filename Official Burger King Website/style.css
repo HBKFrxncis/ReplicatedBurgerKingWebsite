@@ -1,0 +1,495 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Cooper Black', sans-serif;
+  background: radial-gradient(circle at center, #F5EBDC 100%, #F5EBDC 100%, #F5EBDC 100%);
+}
+
+/* Header Wrapper */
+.head-wrapper {
+  width: 100%;
+  background-color: #F5EBDC;
+}
+
+/* CMP Container for Header */
+.cmp-container {
+  width: 100%;
+  height: 78px; /* Adjusted height */
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* Navigation Menu */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+/* Navigation Menu 2 */
+.nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-right: 30px;
+}
+
+/* List Items in Navigation Menu */
+.nav li, .nav2 li {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #502314;
+}
+
+/* Anchor Tags in Navigation Menu */
+.nav a, .nav2 a {
+  color: #502314;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.nav a:hover {
+  color: #D62300;
+}
+
+.locationtext {
+  margin-right: 0px;
+}
+
+/* Location Button */
+.locationbutton a {
+  font-family: sans-serif;
+  color: #502314;
+  font-size: 0.883rem;
+  text-decoration: underline;
+  font-weight: 550;
+}
+
+.locationbutton a:hover {
+  text-decoration: none;
+}
+
+/* Signup Button */
+.signupbutton a, .basketbutton a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 0.783rem;
+}
+
+.signupbutton a {
+  background-color: #D62300;
+}
+
+.signupbutton a:hover {
+  background-color: #872612;
+}
+
+.basketbutton a {
+  background-color: #502314;
+}
+
+/* Logo inside the Header */
+.logo {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+}
+
+.logo img {
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+}
+
+/* Points Bar */
+.points-bar {
+  background-color: #502314; /* Brown color */
+}
+
+.points-bar .cmp-container {
+  width: 100%;
+  height: 101px; /* Height of the points bar */
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.YourBurgerKingText {
+  color: #ff8732;
+  font-size: 0.783rem;
+  margin-right: auto; /* Push to the left */
+}
+
+.YourBurgerKingText h1 {
+  margin-bottom: -5px; /* Adjust the margin as needed */
+}
+
+.YourBurgerKingText2 {
+  color: #d62300;
+}
+
+.YourBurgerKingSubText h3 {
+  color: #ffffff;
+  margin-top: 5px; 
+}
+
+.learn-more-button {
+  background-color: transparent;
+  border: 1px solid #fff; /* Thin oval outline */
+  border-radius: 25px; /* Adjust as needed for the oval shape */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Cooper Black';
+  margin-right: 35px;
+}
+
+.learn-more-button i {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.learn-more-button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white on hover */
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 560px);
+  gap: 20px;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.card .image {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Add rounded corners to the cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 380px; /* Adjusted height */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Text color for titles */
+.card h2 {
+  color: #502314;
+  font-size: 17px;
+}
+
+
+.card .content {
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-grow: 1; /* Allow content to grow */
+}
+
+.card .description {
+  font-size: 12px; 
+  color: #502314;
+  line-height: 1.5;
+  font-family: sans-serif;
+  white-space: pre-line;
+  margin: 0; /* Remove default margin */
+}
+
+/* Get Rewarded Button */
+.get-rewarded-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: #d62300;
+  border: 1px solid #d62300; /* Thin oval outline */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Cooper Black';
+}
+
+.get-rewarded-button:hover {
+  background-color: rgba(80, 35, 20, 0.1); /* Semi-transparent background on hover */
+}
+
+/* Different Order Buttons */
+.order-button-1 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: #d62300;
+  border: 1px solid #d62300; /* Thin oval outline */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Cooper Black';
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.order-button-2 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d62300;
+  color: #ffffff;
+  border: 1px solid #d62300; /* Thin oval outline */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Cooper Black';
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.order-button-2:hover {
+  background-color: ##df5134; /* Semi-transparent background on hover */
+  opacity: 90%;
+}
+
+.order-button-3 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d62300;
+  color: #ffffff;
+  border: 1px solid #d62300; /* Thin oval outline */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Cooper Black';
+  cursor: pointer;
+  transition: background-color 0.3s ease
+  font-family: 'Cooper Black';
+}
+
+.order-button-3:hover {
+  background-color: ##df5134; /* Semi-transparent background on hover */
+  opacity: 90%;
+}
+
+.order-button-4 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d62300;
+  color: #ffffff;
+  border: 1px solid #d62300; /* Thin oval outline */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Cooper Black';
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.order-button-4:hover {
+  background-color: ##df5134; /* Semi-transparent background on hover */
+  opacity: 90%;
+}
+
+
+/* Social Bar */
+.social-bar {
+  position: relative;
+  background-color: #EFE1CC;
+  padding: 20px;
+  overflow: hidden;
+  height: 489px;
+}
+
+/* Save Text */
+.save-text {
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 1200px;
+  font-size: 60px;
+  line-height: 65px;
+  word-spacing: -5px;
+  color: #502314;
+  margin-top: -10px;
+}
+
+/* Images Container */
+.images-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  margin-right: 350px;
+  margin-top: -10px;
+}
+
+/* Images */
+.images-container img {
+  margin-left: 5px;
+}
+
+/* Trademark Text */
+.trademark-text {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 1200px;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-top: -10px;
+}
+
+/* iPhone Image */
+.iphone-image {
+  position: absolute;
+  bottom: 0;
+  left: 55%;
+  top: 1225px;
+  transform: translateX(-55%);
+  width: 480px;
+  height: 636px;
+  z-index: 1; /* Ensure the image is above other elements */
+}
+
+.iphone-image img {
+  width: 460px;
+  height: 610px;
+  object-fit: cover;
+}
+
+
+
+/* Space Bar */
+.space-bar {
+  position: relative;
+  background-color: #f5ebdc;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.Footer-Bar {
+  position: relative;
+  background-color: #2B0200;
+  height: 615px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Footer-Bar {
+  background-color: #2B0200;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.Footer-Bar .cmp-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation {
+  display: flex;
+}
+
+/* Footer Column */
+.footer-column {
+  display: inline-block; 
+  margin-right: 50px; 
+  margin-left: 60px; 
+  margin-top: -190px;
+}
+
+/* Footer Column Heading */
+.footer-column h4 {
+  display: inline; /* Keep the heading on the same line */
+  margin-right: 20px; 
+  font-size: 24px;
+}
+
+/* Centering the second column */
+.footer-column:nth-child(2) {
+  margin-left: 700px;
+  margin-right: auto;
+}
+
+
+
+/* Footer Navigation Links */
+.footer-column ul li {
+  display: block; 
+  margin-bottom: 5px;
+  margin-left:-40px;
+}
+
+/* Footer Navigation Anchor Tags */
+.footer-column ul li a {
+  display: inline; 
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Image */
+.footer-image {
+  position: absolute; /* Position the container absolutely */
+  left: 0; /* Align the container to the left of its parent */
+  margin-top: 70px; 
+  margin-left: 60px;
+  z-index: 9999; /* Ensure the image appears on top of other content */
+}
+
+.footer-image img {
+  display: block; /* Ensure the image behaves as a block element */
+  width: 195px; 
+  height: 70px; 
+  margin: left;
+}
